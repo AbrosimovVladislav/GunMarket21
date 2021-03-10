@@ -17,8 +17,8 @@
     </parent>
 
     <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
         <project.source.buildEncoding>UTF-8</project.source.buildEncoding>
         <postgres.version>42.2.6</postgres.version>
         <swagger.version>2.9.2</swagger.version>
