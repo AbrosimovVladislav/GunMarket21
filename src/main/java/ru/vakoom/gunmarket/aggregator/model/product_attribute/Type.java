@@ -1,10 +1,14 @@
-package ru.vakoom.gunmarket.aggregator.model;
+package ru.vakoom.gunmarket.aggregator.model.product_attribute;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.Data;
 
+import javax.persistence.*;
+
+import static ru.vakoom.gunmarket.aggregator.model.product_attribute.Type.TYPE_TABLE;
+
+@Data
+@Entity
+@Table(name = TYPE_TABLE)
 public class Type {
 
     public static final String TYPE_TABLE = "type";
